@@ -790,8 +790,14 @@ private escapeStringForInfluxDB(str) {
 private getGroupName(id) {
 
     if (id == null) {return 'Home'}
-    else if (id == 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX') {return 'Kitchen'}
-    else if (id == 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX') {return 'Lounge'}
-    else if (id == 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX') {return 'Office'}
-    else {return 'Unknown'}    
+      else if (id == '01c22b55-087a-408f-8e3a-bd91826a7db7') {return 'Nook'}
+      else if (id == '02e5959d-9719-44e4-9c27-95e49e811ea8') {return 'Guest Room'}
+      else if (id == 'b2c63e95-1a1e-443d-90ef-c0b672a1f604') {return 'Living Room'}
+      else if (id == 'b2db3436-29db-45fe-8bf3-e5aea9a781bf') {return 'Virtual Room'}
+      else if (id == '09d42a16-a620-4272-b800-2ef9294994db') {return 'Loft'}
+      else if (id == 'b1357b5c-1fae-423c-9f75-c66ca28b9478') {return 'Study'}
+      else if (id == '3aabedb3-0d95-4370-8964-3a24b2443de0') {return 'Basement'}
+      else if (id == '05ee721b-48e5-4196-a4bc-d499391234c9') {return 'Alarecs Room'}
+      else if (id == '614d325f-7e65-4748-a2b3-7aeb45d9eef5') {return 'Aubris Room'}
+      else {return 'Unknown'}    
 }
